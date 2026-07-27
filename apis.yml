@@ -1,7 +1,32 @@
 aid: glen
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glen.png
 name: Glen
-description: Glen is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Glen is a Y Combinator (Summer 2026) startup building a shared organizational
+  learning and memory system for fleets of AI agents. The platform acts as a
+  centralized store that every AI agent in a company can read from and write to,
+  so that when one agent learns something the whole organization gains access to
+  it. Glen preserves decisions, customer insights and operational procedures with
+  full audit trails, applies role-based access control per observation at recall
+  time, and connects to coding agents, PR assistants, bug bots and sales agents
+  over the Model Context Protocol (MCP). It integrates with the tools where work
+  already lives (code repositories, pull requests, issues, documentation and
+  meetings) to give both agents and humans unified organizational context, aiming
+  to eliminate knowledge silos, reduce new-hire ramp time and retain institutional
+  knowledge through employee turnover. The company is pre-launch and operating a
+  waitlist; its primary integration surface is an MCP server rather than a
+  traditional REST API.
 url: https://raw.githubusercontent.com/api-evangelist/glen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Model Context Protocol
+- Organizational Memory
+- Knowledge Management
+- Developer Tools
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/glen-domain-security.yml
+- type: Website
+  url: https://tryglen.com/
+- type: Blog
+  url: https://tryglen.com/blog
+- type: SignUp
+  url: https://tryglen.com/
+- type: TermsOfService
+  url: https://tryglen.com/terms
+- type: PrivacyPolicy
+  url: https://tryglen.com/privacy
+- type: MCPServer
+  url: mcp/glen-mcp.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

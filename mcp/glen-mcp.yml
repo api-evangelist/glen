@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://tryglen.com/
+status: advertised
+# Glen's primary (and currently only) integration surface is a Model Context
+# Protocol server. The homepage states every AI agent in a company connects to
+# Glen "over MCP" to read and write shared organizational memory, and lists
+# Claude, Claude Code, Cursor, Codex and custom MCP-compatible agents as clients.
+# As of this capture Glen is pre-launch (waitlist); no public MCP endpoint URL,
+# tool manifest, or developer documentation is published yet, so tools[] is
+# intentionally empty rather than fabricated.
+server:
+  name: glen
+  transport: http
+  url: null            # not yet publicly published (private/waitlist)
+  clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Codex
+  - custom MCP-compatible agents
+capabilities:
+- Shared organizational memory that every agent in a company can read and write
+- Per-observation role-based access control applied automatically at recall
+- Automatic context preservation with audit trails
+tools: []             # no public tool manifest published yet
+evidence:
+- source: https://tryglen.com/
+  note: homepage states agents connect to Glen over the Model Context Protocol
