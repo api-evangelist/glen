@@ -1,7 +1,8 @@
 generated: '2026-07-19'
 method: searched
 source: https://tryglen.com/
-status: advertised
+status: announced
+status_raw: advertised
 # Glen's primary (and currently only) integration surface is a Model Context
 # Protocol server. The homepage states every AI agent in a company connects to
 # Glen "over MCP" to read and write shared organizational memory, and lists
