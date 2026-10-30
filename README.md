@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Glen is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Glen is a Y Combinator (Summer 2026) startup building a shared organizational learning and memory system for fleets of AI agents. The platform acts as a centralized store that every AI agent in a company can read from and write to, so that when one agent learns something the whole organization gains access to it. Glen preserves decisions, customer insights and operational procedures with full audit trails, applies role-based access control per observation at recall time, and connects to coding agents, PR assistants, bug bots and sales agents over the Model Context Protocol (MCP). It integrates with the tools where work already lives (code repositories, pull requests, issues, documentation and meetings) to give both agents and humans unified organizational context, aiming to eliminate knowledge silos, reduce new-hire ramp time and retain institutional knowledge through employee turnover. The company is pre-launch and operating a waitlist; its primary integration surface is an MCP server rather than a traditional REST API.
 
-Backed by: y-combinator
+**Areas:** Company · Artificial Intelligence · AI Agents · MCP · Organizational Memory · Knowledge Management · Developer Tools · Y Combinator
+
+## Glen on APIs.io
+
+Everything profiled for Glen is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/glen/](https://apis.io/providers/glen/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [glen](https://apis.io/servers/glen/glen/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Glen Domain Security](https://apis.io/security/glen/glen-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tryglen.com/)
+- [Sign up](https://tryglen.com/)
+- [Blog](https://tryglen.com/blog)
+- [Terms of service](https://tryglen.com/terms)
+- [Privacy policy](https://tryglen.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 11.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/glen/](https://apis.io/providers/glen/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Glen: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/glen/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
